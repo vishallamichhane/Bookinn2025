@@ -1,0 +1,26 @@
+.header{
+    background-color: lightgray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.headerList{
+    display: flex;
+    gap: 100px;
+}
+
+.headerListItem{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 15px ;
+}
+
