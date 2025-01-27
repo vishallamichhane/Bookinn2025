@@ -10,12 +10,13 @@ export const Navbar = () => {
   return (
     <div  className='navbar'>
         <div className="navContainer">
-            <span className="log">BookInn</span>
+            <span className="logo">BookInn</span>
            <div  className="navItems">
+           <div className="icon">
               <button className="navButton">Register</button>
               <FontAwesomeIcon icon= {faUser} />
               <button className="navButton">Login</button>
-              <FontAwesomeIcon icon= {faArrowCircleRight} />            
+              <FontAwesomeIcon icon= {faArrowCircleRight} /> </div>           
             </div>
 
             

@@ -72,7 +72,6 @@ const handleSearch = (e)=>{
         <p className="headerDescription">
           Get rewarded for your travels - unlock instant savings of 10% or more with a free BookInn account
         </p>
-        <button type="button" className="headerBtn">Sign in / Register</button>
         <form className="headerSearch" onSubmit={handleSearch}>
           <div className="headerSearchItem">
           <FontAwesomeIcon icon={faBed}  className = "headerIcon"/>

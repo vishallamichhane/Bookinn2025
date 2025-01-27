@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Navbar } from '../../components/navbar/Navbar'
-import { MailList } from '../../components/maillist/MailList'
-import { Footer } from '../../components/footer/Footer'
+import { MailList } from '../../components/mailList/MailList'
+// import { Footer } from '../../components/footer/Footer.jsx'
 import "./hotel.css"
 import { SecondNav } from '../List/SecondNav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

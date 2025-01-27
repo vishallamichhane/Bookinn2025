@@ -12,6 +12,11 @@
     gap: 10px;
     display: flex;
     flex-direction: column;
+    
+}
+.fpTitle{
+    width: 1024px;
+    font-size: 20px;
 }
 
 .fpImg{
@@ -39,4 +44,8 @@ font-weight: bold;
 
 .fpRating>span{
     font-size: 14px;
+}
+
+img{
+    height: 150px;
 }

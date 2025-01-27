@@ -1,6 +1,6 @@
 .navbar{
-    height: 60px;
-    background-color: lightgrey;
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.207);
     display: flex;
     justify-content: center;
 
@@ -8,14 +8,16 @@
 .navContainer{
     width: 100%;
     max-width: 1024px;
-    color: black;
+    color: #B0BFC2;
     display: flex;
-    allign-item : center;
+    align-items: center;
     justify-content: space-between;
 }
 
 .logo{
     font-weight: 500;
+    font-size: 50px;
+    color: whitesmoke;
 }
 .navButton{
     margin-left: 25px;
@@ -23,5 +25,12 @@
     padding: 5px 10px;
     cursor: pointer;
     color: #003580;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.icon{
+    color: whitesmoke;
+    /* padding-right: 10px; */
 }
 
